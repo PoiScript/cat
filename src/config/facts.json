@@ -1,0 +1,104 @@
+{
+  "title": {
+    "en": "facts",
+    "zh-Hans": "信息",
+    "zh-Hant": "信息"
+  },
+  "subtitle": {
+    "en": "may change",
+    "zh-Hans": "随时可能更改",
+    "zh-Hant": "随时可能更改"
+  },
+  "items": [
+    {
+      "icon": "mode_edit",
+      "color": "#673AB7",
+      "value": "spacemacs",
+      "translations": {
+        "en": "Editor",
+        "zh-Hans": "编辑器",
+        "zh-Hant": "编辑器"
+      }
+    },
+    {
+      "icon": "keyboard",
+      "color": "#607D8B",
+      "value": "JetBrains (WS / IJ /PC)",
+      "translations": {
+        "en": "IDEs",
+        "zh-Hans": "开发环境",
+        "zh-Hant": "开发环境"
+      }
+    },
+    {
+      "icon": "keyboard_tab",
+      "color": "#3F51B5",
+      "value": "2 spaces",
+      "translations": {
+        "en": "Tab or space",
+        "zh-Hans": "缩进风格",
+        "zh-Hant": "缩进风格"
+      }
+    },
+    {
+      "icon": "web",
+      "color": "#F44336",
+      "value": "Chrome Dev",
+      "translations": {
+        "en": "Browser",
+        "zh-Hans": "浏览器",
+        "zh-Hant": "浏览器"
+      }
+    },
+    {
+      "icon": "laptop",
+      "color": "#4CAF50",
+      "value": "openSUSE Tumbleweed",
+      "translations": {
+        "en": "Operating System",
+        "zh-Hans": "操作系统",
+        "zh-Hant": "操作系统"
+      }
+    },
+    {
+      "icon": "smartphone",
+      "color": "#8BC34A",
+      "value": "Android Marshmallow",
+      "translations": {
+        "en": "Mobile Operating System",
+        "zh-Hans": "手机操作系统",
+        "zh-Hant": "手机操作系统"
+      }
+    },
+    {
+      "icon": "public",
+      "color": "#009688",
+      "value": "zh / en / ja / it",
+      "translations": {
+        "en": "Natural Language",
+        "zh-Hans": "自然语言",
+        "zh-Hant": "自然语言"
+      }
+    },
+    {
+      "icon": "code",
+      "color": "#FF5722",
+      "value": "JavaScript / Rust",
+      "translations": {
+        "en": "Programming Language",
+        "zh-Hans": "编程语言",
+        "zh-Hant": "编程语言"
+      }
+    },
+    {
+      "icon": "videogame_asset",
+      "color": "#0D47A1",
+      "value": "PlayStation 4 Slim",
+      "translations": {
+        "en": "Game Console",
+        "zh-Hans": "游戏主机",
+        "zh-Hant": "游戏主机"
+      }
+    }
+  ]
+}

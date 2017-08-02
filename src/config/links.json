@@ -1,0 +1,24 @@
+{
+  "title": {
+    "en": "Links",
+    "zh-Hans": "链接",
+    "zh-Hant": "鏈接"
+  },
+  "subtitle": {
+    "en": "Links",
+    "zh-Hans": "链接",
+    "zh-Hant": "鏈接"
+  },
+  "items": [
+    {
+      "icon": "receipt",
+      "color": "#9C27B0",
+      "value": "Solomon",
+      "translations": {
+        "en": "Blog",
+        "zh-Hans": "博客",
+        "zh-Hant": "博客"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+include components/ListCard
+- var { config: { comm, facts, links }, lang } = htmlWebpackPlugin.options
+
+doctype html
+html(lang=lang)
+  head
+    title PoiScript
+  body
+    include components/Toolbar
+    .ribbon
+    main
+      +listCard(facts, lang)
+      +listCard(comm, lang)
+      +listCard(links, lang)

@@ -1,0 +1,94 @@
+{
+  "title": {
+    "en": "Communications",
+    "zh-Hans": "联系方式",
+    "zh-Hant": "聯繫方式"
+  },
+  "subtitle": {
+    "en": "random order",
+    "zh-Hans": "乱序",
+    "zh-Hant": "亂序"
+  },
+  "items": [
+    {
+      "icon": "email",
+      "color": "#F44336",
+      "value": "poiscript@gmail.com",
+      "translations": {
+        "en": "Gmail",
+        "zh-Hans": "Gmail",
+        "zh-Hant": "Gmail"
+      }
+    },
+    {
+      "icon": "email",
+      "color": "#3F51B5",
+      "value": "poiscript@outlook.com",
+      "translations": {
+        "en": "Outlook",
+        "zh-Hans": "Outlook",
+        "zh-Hant": "Outlook"
+      }
+    },
+    {
+      "icon": "github",
+      "color": "black",
+      "value": "@PoiScript",
+      "translations": {
+        "en": "GitHub",
+        "zh-Hans": "GitHub",
+        "zh-Hant": "GitHub"
+      }
+    },
+    {
+      "icon": "telegram",
+      "color": "#03A9F4",
+      "value": "@PoiScript",
+      "translations": {
+        "en": "Telegram",
+        "zh-Hans": "Telegram",
+        "zh-Hant": "Telegram"
+      }
+    },
+    {
+      "icon": "facebook",
+      "color": "#2196F3",
+      "value": "@PoiScript",
+      "translations": {
+        "en": "Facebook",
+        "zh-Hans": "Facebook",
+        "zh-Hant": "Facebook"
+      }
+    },
+    {
+      "icon": "google_plus",
+      "color": "#F44336",
+      "value": "@PoiScript",
+      "translations": {
+        "en": "Google +",
+        "zh-Hans": "Google +",
+        "zh-Hant": "Google +"
+      }
+    },
+    {
+      "icon": "twitter",
+      "color": "#00BCD4",
+      "value": "@PoiScript",
+      "translations": {
+        "en": "Twitter",
+        "zh-Hans": "Twitter",
+        "zh-Hant": "Twitter"
+      }
+    },
+    {
+      "icon": "matrix",
+      "color": "#607D8B",
+      "value": "@PoiScript:matrix.org",
+      "translations": {
+        "en": "Matrix",
+        "zh-Hans": "Matrix",
+        "zh-Hant": "Matrix"
+      }
+    }
+  ]
+}

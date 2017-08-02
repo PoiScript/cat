@@ -1,0 +1,16 @@
+- req = require.context("./icons", false, /\.svg$/)
+
+mixin listCard(config, lang)
+  .card.mdc-elevation--z3
+    .card-top
+      h1.card-title= config.title[lang]
+      h3.card-subtitle= `/* ${config.subtitle[lang]} */`
+    .mdc-layout-grid.mdc-grid-list.mdc-grid-list--twoline-caption
+      ul.mdc-grid-list__tiles.mdc-layout-grid__inner
+        each item in config.items
+          li.mdc-grid-tile.mdc-layout-grid__cell
+            .mdc-grid-tile__primary(style={ background: item.color })
+              != req(`./${item.icon}.svg`)
+            span.mdc-grid-tile__secondary
+              span.mdc-grid-tile__title= item.value
+              span.mdc-grid-tile__support-text= item.translations[lang]
