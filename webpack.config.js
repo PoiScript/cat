@@ -1,4 +1,6 @@
 const path = require('path')
+const glob = require('glob-all')
+const PurifyCSSPlugin = require('purifycss-webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
@@ -8,7 +10,7 @@ const config = {
   links: require('./src/config/links.json')
 }
 
-function pluginConfig (lang) {
+function htmlPluginConfig (lang) {
   const filename = `${lang === 'en' ? '' : lang + '/'}index.html`
 
   return {
@@ -64,9 +66,16 @@ module.exports = {
     contentBase: path.join(__dirname, 'build')
   },
   plugins: [
+    new PurifyCSSPlugin({
+      minimize: true,
+      paths: glob.sync([
+        path.join(__dirname, './src/*.pug'),
+        path.join(__dirname, './src/components/*.pug')
+      ])
+    }),
     new ExtractTextPlugin('main.css'),
-    new HtmlWebpackPlugin(pluginConfig('en')),
-    new HtmlWebpackPlugin(pluginConfig('zh-Hans')),
-    new HtmlWebpackPlugin(pluginConfig('zh-Hant'))
+    new HtmlWebpackPlugin(htmlPluginConfig('en')),
+    new HtmlWebpackPlugin(htmlPluginConfig('zh-Hans')),
+    new HtmlWebpackPlugin(htmlPluginConfig('zh-Hant'))
   ]
 }
