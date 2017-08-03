@@ -8,6 +8,20 @@ const config = {
   links: require('./src/config/links.json')
 }
 
+function pluginConfig (lang) {
+  const filename = `${lang === 'en' ? '' : lang + '/'}index.html`
+
+  return {
+    lang: lang,
+    config: config,
+    filename: filename,
+    template: './src/index.pug',
+    minify: {
+      collapseWhitespace: true
+    }
+  }
+}
+
 module.exports = {
   entry: [
     './src/index.css',
@@ -31,7 +45,7 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        loader: 'svg-inline-loader?classPrefix'
+        loader: 'svg-inline-loader'
       },
       {
         test: /\.css$/,
@@ -50,14 +64,9 @@ module.exports = {
     contentBase: path.join(__dirname, 'build')
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.pug',
-      minify: {
-        collapseWhitespace: true
-      },
-      lang: 'en',
-      config: config
-    }),
-    new ExtractTextPlugin('main.css')
+    new ExtractTextPlugin('main.css'),
+    new HtmlWebpackPlugin(pluginConfig('en')),
+    new HtmlWebpackPlugin(pluginConfig('zh-Hans')),
+    new HtmlWebpackPlugin(pluginConfig('zh-Hant'))
   ]
 }

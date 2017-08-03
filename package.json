@@ -16,9 +16,7 @@
     "@material/layout-grid": "^0.4.1",
     "@material/list": "^0.2.13",
     "@material/theme": "^0.1.7",
-    "@material/toolbar": "^0.4.3",
-    "font-awesome-svg-png": "^1.2.2",
-    "material-design-icons": "^3.0.1"
+    "@material/toolbar": "^0.4.3"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
