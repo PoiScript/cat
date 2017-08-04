@@ -25,26 +25,6 @@
     "@material/theme" "^0.1.6"
     "@material/typography" "^0.2.3"
 
-"@material/layout-grid@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.4.1.tgz#32516e67589c2826e452c913b9108bbaf01d3015"
-
-"@material/list@^0.2.13":
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/@material/list/-/list-0.2.13.tgz#6ce919057adcd4e98c27338a751cb89578410303"
-  dependencies:
-    "@material/ripple" "^0.8.1"
-    "@material/rtl" "^0.1.7"
-    "@material/theme" "^0.1.6"
-    "@material/typography" "^0.2.3"
-
-"@material/ripple@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.8.1.tgz#6e1d9dee6453f68a8cfd3b9b7fcd253cc0e12f12"
-  dependencies:
-    "@material/base" "^0.2.3"
-    "@material/theme" "^0.1.6"
-
 "@material/rtl@^0.1.7":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.1.7.tgz#b38b771af183bcf34d643f600f17fc433698535a"

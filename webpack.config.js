@@ -27,7 +27,6 @@ function htmlPluginConfig (lang) {
 module.exports = {
   entry: [
     './src/index.css',
-    '@material/list/dist/mdc.list.css',
     '@material/toolbar/dist/mdc.toolbar',
     '@material/toolbar/dist/mdc.toolbar.css',
     '@material/elevation/dist/mdc.elevation.css',

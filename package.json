@@ -13,8 +13,6 @@
   "dependencies": {
     "@material/elevation": "^0.1.10",
     "@material/grid-list": "^0.2.7",
-    "@material/layout-grid": "^0.4.1",
-    "@material/list": "^0.2.13",
     "@material/theme": "^0.1.7",
     "@material/toolbar": "^0.4.3"
   },
