@@ -19,11 +19,29 @@ main {
 }
 
 .mdc-grid-tile {
-  --mdc-grid-list-tile-width: 204px;
+  --mdc-grid-list-tile-width: 180px;
 }
 
-.mdc-grid-list .mdc-grid-list__tiles {
-  margin: 2px auto;
+.mdc-grid-list__tiles {
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .mdc-grid-list__tiles {
+    width: 368px;
+  }
+}
+
+@media (max-width: 780px) and (min-width: 600px) {
+  .mdc-grid-list__tiles {
+    width: 552px;
+  }
+}
+
+@media (min-width: 780px) {
+  .mdc-grid-list__tiles {
+    width: 736px;
+  }
 }
 
 .card {
@@ -52,10 +70,10 @@ main {
 }
 
 .mdc-grid-tile__primary svg {
-  width: 68px;
-  margin: calc(40% - 34px) calc(50% - 34px);
-  height: 68px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
-  color: rgb(255, 255, 255);
   fill: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  margin: calc(50% - 50px) calc(50% - 50px);
 }

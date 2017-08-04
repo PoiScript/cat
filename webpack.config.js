@@ -32,8 +32,7 @@ module.exports = {
     '@material/toolbar/dist/mdc.toolbar.css',
     '@material/elevation/dist/mdc.elevation.css',
     '@material/grid-list/dist/mdc.gridList',
-    '@material/grid-list/dist/mdc.grid-list.css',
-    '@material/layout-grid/dist/mdc.layout-grid.css'
+    '@material/grid-list/dist/mdc.grid-list.css'
   ],
   output: {
     path: path.resolve('build'),
