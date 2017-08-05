@@ -10,6 +10,7 @@ main {
   margin: -20vh auto 0;
   flex-shrink: 0;
   --mdc-theme-primary: rgba(0, 0, 0, 0.2);
+  --mdc-theme-text-primary-on-light: white;
 }
 
 .ribbon {
@@ -19,58 +20,11 @@ main {
   background-color: #673AB7;
 }
 
-.mdc-grid-tile {
-  --mdc-grid-list-tile-width: 180px;
+.mdc-card__primary {
+  background: rgba(0, 0, 0, .4);
 }
 
-.mdc-grid-list__tiles {
-  margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-  .mdc-grid-list__tiles {
-    width: 368px;
-  }
-}
-
-@media (max-width: 780px) and (min-width: 600px) {
-  .mdc-grid-list__tiles {
-    width: 552px;
-  }
-}
-
-@media (min-width: 780px) {
-  .mdc-grid-list__tiles {
-    width: 736px;
-  }
-}
-
-.card {
-  margin: 20px 0;
-  background-color: white;
-}
-
-.card-top {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.card-title {
-  margin: 0;
-  font-weight: 300;
-  letter-spacing: 10px;
-  padding: 20px;
-}
-
-.card-subtitle {
-  color: #a0a0a0;
-  margin: 0;
-  font-weight: 400;
-  letter-spacing: 5px;
-  font-family: 'Fira Code', 'Source Code Pro', monospace;
-}
-
-.mdc-grid-tile__primary svg {
+.mdc-card svg {
   width: 100px;
   height: 100px;
   display: inline-block;

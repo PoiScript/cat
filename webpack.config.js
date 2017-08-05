@@ -27,11 +27,10 @@ function htmlPluginConfig (lang) {
 module.exports = {
   entry: [
     './src/index.css',
+    '@material/card/dist/mdc.card.css',
     '@material/toolbar/dist/mdc.toolbar',
     '@material/toolbar/dist/mdc.toolbar.css',
-    '@material/elevation/dist/mdc.elevation.css',
-    '@material/grid-list/dist/mdc.gridList',
-    '@material/grid-list/dist/mdc.grid-list.css'
+    '@material/layout-grid/dist/mdc.layout-grid.css'
   ],
   output: {
     path: path.resolve('build'),

@@ -2,28 +2,32 @@
 # yarn lockfile v1
 
 
-"@material/animation@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.3.0.tgz#57b13c75e705eba9686ec5e9fd03a361738ce76a"
+"@material/animation@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.3.1.tgz#229de6927d0590d6d6b20157d778d264ef02229a"
 
 "@material/base@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@material/base/-/base-0.2.3.tgz#c4eb26b6d6e5840c254ad487588dc4f69b971f3e"
 
-"@material/elevation@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.10.tgz#f0250c97c81663534b83c3428e764c9026d41ba1"
+"@material/card@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@material/card/-/card-0.2.6.tgz#37184de3629490eb9e6b562dc7f7823cf87cf8f8"
   dependencies:
-    "@material/animation" "^0.3.0"
-
-"@material/grid-list@^0.2.7":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@material/grid-list/-/grid-list-0.2.7.tgz#73da8f84de735bf48640d455299407d3c99f0548"
-  dependencies:
-    "@material/base" "^0.2.3"
+    "@material/elevation" "^0.1.11"
     "@material/rtl" "^0.1.7"
-    "@material/theme" "^0.1.6"
-    "@material/typography" "^0.2.3"
+    "@material/theme" "^0.1.7"
+    "@material/typography" "^0.3.0"
+
+"@material/elevation@^0.1.10", "@material/elevation@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.1.11.tgz#195815648697f2fbad20666a4c232dc9b6f1189b"
+  dependencies:
+    "@material/animation" "^0.3.1"
+
+"@material/layout-grid@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@material/layout-grid/-/layout-grid-0.4.1.tgz#32516e67589c2826e452c913b9108bbaf01d3015"
 
 "@material/rtl@^0.1.7":
   version "0.1.7"
@@ -46,6 +50,10 @@
 "@material/typography@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.2.3.tgz#cddf4178098c9c7b4c2e78a33049376b4d6aeb53"
+
+"@material/typography@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.3.0.tgz#f828c2d3215bfd66c58072709b4260c64125390a"
 
 abbrev@1:
   version "1.1.0"
