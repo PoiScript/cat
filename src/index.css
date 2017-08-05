@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #EEEEEE;
 }
 
 main {
@@ -76,4 +77,19 @@ main {
   fill: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   margin: calc(50% - 50px) calc(50% - 50px);
+}
+
+footer {
+  color: #9e9e9e;
+  padding: 32px 16px 32px 40px;
+  background-color: #424242;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.footer-links a {
+  color: inherit;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
 }
