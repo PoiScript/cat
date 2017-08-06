@@ -28,8 +28,6 @@ module.exports = {
   entry: [
     './src/index.css',
     '@material/card/dist/mdc.card.css',
-    '@material/toolbar/dist/mdc.toolbar',
-    '@material/toolbar/dist/mdc.toolbar.css',
     '@material/layout-grid/dist/mdc.layout-grid.css'
   ],
   output: {

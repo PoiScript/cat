@@ -13,8 +13,7 @@
   "dependencies": {
     "@material/card": "^0.2.6",
     "@material/layout-grid": "^0.4.1",
-    "@material/theme": "^0.1.7",
-    "@material/toolbar": "^0.4.3"
+    "@material/theme": "^0.1.7"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
