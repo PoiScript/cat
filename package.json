@@ -2,6 +2,7 @@
   "name": "poi-cat",
   "version": "0.0.0",
   "description": "Homepage of https://poi.cat",
+  "license": "MIT",
   "repository": "git@github.com:PoiScript/solomon.git",
   "author": "PoiScript <poiscript@gmail.com>",
   "homepage": "https://poi.cat",

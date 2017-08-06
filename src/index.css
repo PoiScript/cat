@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EEEEEE;
+  font-family: "Roboto", "Noto Sans CJK SC", "Noto Sans CJK TC", sans-serif;
 }
 
 main {
@@ -28,7 +29,6 @@ main {
   font-weight: 300;
   line-height: 4rem;
   letter-spacing: -0.02em;
-  font-family: "Roboto", "Noto Sans CJK SC", "Noto Sans CJK TC", sans-serif;
 }
 
 .grid-title {
@@ -38,7 +38,6 @@ main {
   line-height: 2.5rem;
   letter-spacing: normal;
   text-transform: capitalize;
-  font-family: "Roboto", "Noto Sans CJK SC", "Noto Sans CJK TC", sans-serif;
 }
 
 .grid-subtitle {
@@ -49,7 +48,6 @@ main {
   letter-spacing: 4px;
   line-height: 1.5rem;
   text-transform: uppercase;
-  font-family: "Roboto", "Noto Sans CJK SC", "Noto Sans CJK TC", sans-serif;
 }
 
 .mdc-card__primary {
