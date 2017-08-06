@@ -1,5 +1,6 @@
+const glob = require('glob')
 const path = require('path')
-const glob = require('glob-all')
+const webpack = require('webpack')
 const PurifyCSSPlugin = require('purifycss-webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
@@ -19,7 +20,9 @@ function htmlPluginConfig (lang) {
     filename: filename,
     template: './src/index.pug',
     minify: {
-      collapseWhitespace: true
+      removeComments: true,
+      collapseWhitespace: true,
+      removeAttributeQuotes: true
     }
   }
 }
@@ -32,7 +35,7 @@ module.exports = {
   ],
   output: {
     path: path.resolve('build'),
-    filename: 'main.js'
+    filename: 'main.[hash:8].js'
   },
   module: {
     loaders: [
@@ -63,12 +66,15 @@ module.exports = {
   plugins: [
     new PurifyCSSPlugin({
       minimize: true,
-      paths: glob.sync([
-        path.join(__dirname, './src/*.pug'),
-        path.join(__dirname, './src/components/*.pug')
-      ])
+      paths: glob.sync(path.join(__dirname, './src/*.pug'))
     }),
-    new ExtractTextPlugin('main.css'),
+    new webpack.optimize.UglifyJsPlugin({
+      comments: false,
+      compress: {
+        warnings: false
+      }
+    }),
+    new ExtractTextPlugin('main.[hash:8].css'),
     new HtmlWebpackPlugin(htmlPluginConfig('en')),
     new HtmlWebpackPlugin(htmlPluginConfig('zh-Hans')),
     new HtmlWebpackPlugin(htmlPluginConfig('zh-Hant'))
