@@ -14,6 +14,7 @@
       "icon": "email",
       "color": "#F44336",
       "value": "poiscript@gmail.com",
+      "link": "mailto:poiscript@gmail.com",
       "translations": {
         "en": "Gmail",
         "zh-Hans": "Gmail",
@@ -24,6 +25,7 @@
       "icon": "email",
       "color": "#3F51B5",
       "value": "poiscript@outlook.com",
+      "link": "mailto:poiscript@outlook.com",
       "translations": {
         "en": "Outlook",
         "zh-Hans": "Outlook",
@@ -34,6 +36,7 @@
       "icon": "github",
       "color": "black",
       "value": "@PoiScript",
+      "link": "https://github.com/PoiScript",
       "translations": {
         "en": "GitHub",
         "zh-Hans": "GitHub",
@@ -44,6 +47,7 @@
       "icon": "telegram",
       "color": "#03A9F4",
       "value": "@PoiScript",
+      "link": "https://t.me/PoiScript",
       "translations": {
         "en": "Telegram",
         "zh-Hans": "Telegram",
@@ -54,6 +58,7 @@
       "icon": "facebook",
       "color": "#2196F3",
       "value": "@PoiScript",
+      "link": "https://fb.me/PoiScript",
       "translations": {
         "en": "Facebook",
         "zh-Hans": "Facebook",
@@ -64,6 +69,7 @@
       "icon": "google_plus",
       "color": "#F44336",
       "value": "@PoiScript",
+      "link": "https://plus.google.com/117614462113185255456",
       "translations": {
         "en": "Google +",
         "zh-Hans": "Google +",
@@ -74,6 +80,7 @@
       "icon": "twitter",
       "color": "#00BCD4",
       "value": "@PoiScript",
+      "link": "https://twitter.com/PoiScript",
       "translations": {
         "en": "Twitter",
         "zh-Hans": "Twitter",
@@ -84,6 +91,7 @@
       "icon": "matrix",
       "color": "#607D8B",
       "value": "@PoiScript:matrix.org",
+      "link": "https://matrix.to/#/@PoiScript:matrix.org",
       "translations": {
         "en": "Matrix",
         "zh-Hans": "Matrix",

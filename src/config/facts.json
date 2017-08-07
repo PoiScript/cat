@@ -14,6 +14,7 @@
       "icon": "mode_edit",
       "color": "#673AB7",
       "value": "spacemacs",
+      "link": "http://spacemacs.org/",
       "translations": {
         "en": "Editor",
         "zh-Hans": "编辑器",
@@ -23,7 +24,8 @@
     {
       "icon": "keyboard",
       "color": "#607D8B",
-      "value": "JetBrains (WS / IJ /PC)",
+      "value": "JetBrains (WS/IJ/PC)",
+      "link": "https://www.jetbrains.com/",
       "translations": {
         "en": "IDEs",
         "zh-Hans": "开发环境",
@@ -34,6 +36,7 @@
       "icon": "keyboard_tab",
       "color": "#3F51B5",
       "value": "2 spaces",
+      "link": "https://standardjs.com/#the-rules",
       "translations": {
         "en": "Tab or space",
         "zh-Hans": "缩进风格",
@@ -44,6 +47,7 @@
       "icon": "web",
       "color": "#F44336",
       "value": "Chrome Dev",
+      "link": "https://www.google.com/chrome/",
       "translations": {
         "en": "Browser",
         "zh-Hans": "浏览器",
@@ -54,6 +58,7 @@
       "icon": "laptop",
       "color": "#4CAF50",
       "value": "openSUSE Tumbleweed",
+      "link": "https://www.opensuse.org/#Tumbleweed",
       "translations": {
         "en": "Operating System",
         "zh-Hans": "操作系统",
@@ -64,6 +69,7 @@
       "icon": "smartphone",
       "color": "#8BC34A",
       "value": "Android Marshmallow",
+      "link": "https://www.android.com/",
       "translations": {
         "en": "Mobile Operating System",
         "zh-Hans": "手机操作系统",
@@ -74,6 +80,7 @@
       "icon": "public",
       "color": "#009688",
       "value": "zh / en / ja / it",
+      "link": "https://en.wikipedia.org/wiki/Chinese_language",
       "translations": {
         "en": "Natural Language",
         "zh-Hans": "自然语言",
@@ -84,6 +91,7 @@
       "icon": "code",
       "color": "#FF5722",
       "value": "JavaScript / Rust",
+      "link": "https://www.rust-lang.org/",
       "translations": {
         "en": "Programming Language",
         "zh-Hans": "编程语言",
@@ -94,6 +102,7 @@
       "icon": "videogame_asset",
       "color": "#0D47A1",
       "value": "PlayStation 4 Slim",
+      "link": "https://www.playstation.com/en-us/explore/ps4/",
       "translations": {
         "en": "Game Console",
         "zh-Hans": "游戏主机",

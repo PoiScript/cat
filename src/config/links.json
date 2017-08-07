@@ -14,10 +14,11 @@
       "icon": "receipt",
       "color": "#9C27B0",
       "value": "Solomon",
+      "link": "https://blog.poi.cat/",
       "translations": {
-        "en": "Blog",
+        "en": "Blog (Simplified Chinese)",
         "zh-Hans": "博客",
-        "zh-Hant": "博客"
+        "zh-Hant": "博客 (简体中文)"
       }
     }
   ]

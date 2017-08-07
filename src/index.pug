@@ -6,11 +6,10 @@ html(lang=lang)
     title PoiScript
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
   body
-    main
-      .mdc-layout-grid
-        h1.primary-heading PoiScript
-        include components/Grid
-        +grid(facts, lang)
-        +grid(comm, lang)
-        +grid(links, lang)
+    main.mdc-layout-grid
+      h1.primary-heading PoiScript
+      include components/Grid
+      +grid(facts, lang)
+      +grid(comm, lang)
+      +grid(links, lang)
     include components/Footer
