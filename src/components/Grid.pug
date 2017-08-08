@@ -6,9 +6,8 @@ mixin grid(config, lang)
   .mdc-layout-grid__inner
     each item in config.items
       .mdc-layout-grid__cell.mdc-layout-grid__cell--span-6-phone.mdc-layout-grid__cell--span-4-tablet
-        a(target="_blank" href=item.link)
-          .mdc-card(style={ background: item.color })
-            !=req(`./${item.icon}.svg`)
-            section.mdc-card__primary
-              h1.mdc-card__title.mdc-card__title--large= item.value
-              h2.mdc-card__subtitle= item.translations[lang]
+        a.mdc-card(target="_blank" href=item.link style={ background: item.color })
+          !=req(`./${item.icon}.svg`)
+          section.mdc-card__primary
+            h1.mdc-card__title.mdc-card__title--large= item.value
+            h2.mdc-card__subtitle= item.translations[lang]
