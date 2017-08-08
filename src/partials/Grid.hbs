@@ -1,0 +1,15 @@
+<h1 class="grid-title">{{getByKey title lang}}</h1>
+<h4 class="grid-subtitle">/* {{getByKey subtitle lang}} */</h4>
+<div class="mdc-layout-grid__inner">
+  {{#each items}}
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-phone mdc-layout-grid__cell--span-4-tablet">
+      <a class="mdc-card" target="_blank" style="background: {{color}}" href={{link}}>
+        {{{requireIcon icon}}}
+        <section class="mdc-card__primary">
+          <h1 class="mdc-card__title mdc-card__title--large">{{value}}</h1>
+          <h2 class="mdc-card__subtitle">{{getByKey translations ../lang}}</h2>
+        </section>
+      </a>
+    </div>
+  {{/each}}
+</div>

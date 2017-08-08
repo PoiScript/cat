@@ -5,11 +5,11 @@ const PurifyCSSPlugin = require('purifycss-webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-const config = {
-  comm: require('./src/config/comm.json'),
-  facts: require('./src/config/facts.json'),
-  links: require('./src/config/links.json')
-}
+const config = [
+  require('./src/config/facts.json'),
+  require('./src/config/comm.json'),
+  require('./src/config/links.json')
+]
 
 function htmlPluginConfig (lang) {
   const filename = `${lang === 'en' ? '' : lang + '/'}index.html`
@@ -18,7 +18,7 @@ function htmlPluginConfig (lang) {
     lang: lang,
     config: config,
     filename: filename,
-    template: './src/index.pug',
+    template: './src/index.hbs',
     minify: {
       removeComments: true,
       collapseWhitespace: true,
@@ -31,6 +31,7 @@ module.exports = {
   entry: [
     './src/index.css',
     '@material/card/dist/mdc.card.css',
+    '@material/theme/dist/mdc.theme.css',
     '@material/layout-grid/dist/mdc.layout-grid.css'
   ],
   output: {
@@ -39,10 +40,6 @@ module.exports = {
   },
   module: {
     loaders: [
-      {
-        test: /\.pug$/,
-        use: 'pug-loader'
-      },
       {
         test: /\.svg$/,
         loader: 'svg-inline-loader'
@@ -53,6 +50,18 @@ module.exports = {
           fallback: 'style-loader',
           use: 'css-loader'
         })
+      },
+      {
+        test: /\.hbs$/,
+        loader: 'handlebars-loader',
+        query: {
+          helperDirs: [
+            path.join(__dirname, 'src', 'helpers')
+          ],
+          partialDirs: [
+            path.join(__dirname, 'src', 'partials')
+          ]
+        }
       }
     ]
   },
@@ -66,7 +75,8 @@ module.exports = {
   plugins: [
     new PurifyCSSPlugin({
       minimize: true,
-      paths: glob.sync(path.join(__dirname, './src/*.pug'))
+      moduleExtensions: ['.hbs'],
+      paths: glob.sync(path.join(__dirname, 'src/**/*.hbs'))
     }),
     new webpack.optimize.UglifyJsPlugin({
       comments: false,
@@ -74,7 +84,7 @@ module.exports = {
         warnings: false
       }
     }),
-    new ExtractTextPlugin('main.[hash:8].css'),
+    new ExtractTextPlugin('[name].[hash:8].css'),
     new HtmlWebpackPlugin(htmlPluginConfig('en')),
     new HtmlWebpackPlugin(htmlPluginConfig('zh-Hans')),
     new HtmlWebpackPlugin(htmlPluginConfig('zh-Hant'))
