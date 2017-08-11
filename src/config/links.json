@@ -1,11 +1,13 @@
 {
   "title": {
     "en": "Links",
+    "ja": "リンク",
     "zh-Hans": "链接",
     "zh-Hant": "鏈接"
   },
   "subtitle": {
     "en": "Links",
+    "ja": "リンク",
     "zh-Hans": "链接",
     "zh-Hant": "鏈接"
   },
@@ -17,6 +19,7 @@
       "link": "https://blog.poi.cat/",
       "translations": {
         "en": "Blog (Simplified Chinese)",
+        "ja": "ブログ (簡体字)",
         "zh-Hans": "博客",
         "zh-Hant": "博客 (简体中文)"
       }

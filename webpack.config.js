@@ -86,6 +86,7 @@ module.exports = {
     }),
     new ExtractTextPlugin('[name].[hash:8].css'),
     new HtmlWebpackPlugin(htmlPluginConfig('en')),
+    new HtmlWebpackPlugin(htmlPluginConfig('ja')),
     new HtmlWebpackPlugin(htmlPluginConfig('zh-Hans')),
     new HtmlWebpackPlugin(htmlPluginConfig('zh-Hant'))
   ]

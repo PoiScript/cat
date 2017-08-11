@@ -1,11 +1,13 @@
 {
   "title": {
-    "en": "facts",
+    "en": "Facts",
+    "ja": "情報",
     "zh-Hans": "信息",
     "zh-Hant": "信息"
   },
   "subtitle": {
     "en": "may change",
+    "ja": "変更の可能性あり",
     "zh-Hans": "随时可能更改",
     "zh-Hant": "随时可能更改"
   },
@@ -17,6 +19,7 @@
       "link": "http://spacemacs.org/",
       "translations": {
         "en": "Editor",
+        "ja": "エディタ",
         "zh-Hans": "编辑器",
         "zh-Hant": "编辑器"
       }
@@ -28,6 +31,7 @@
       "link": "https://www.jetbrains.com/",
       "translations": {
         "en": "IDEs",
+        "ja": "開発環境",
         "zh-Hans": "开发环境",
         "zh-Hant": "开发环境"
       }
@@ -38,9 +42,10 @@
       "value": "2 spaces",
       "link": "https://standardjs.com/#the-rules",
       "translations": {
-        "en": "Tab or space",
-        "zh-Hans": "缩进风格",
-        "zh-Hant": "缩进风格"
+        "en": "Programming Style",
+        "ja": "プログラミング作法",
+        "zh-Hans": "代码风格",
+        "zh-Hant": "代碼风格"
       }
     },
     {
@@ -50,6 +55,7 @@
       "link": "https://www.google.com/chrome/",
       "translations": {
         "en": "Browser",
+        "ja": "ブラウザ",
         "zh-Hans": "浏览器",
         "zh-Hant": "浏览器"
       }
@@ -61,6 +67,7 @@
       "link": "https://www.opensuse.org/#Tumbleweed",
       "translations": {
         "en": "Operating System",
+        "ja": "オペレーティングシステム",
         "zh-Hans": "操作系统",
         "zh-Hant": "操作系统"
       }
@@ -72,6 +79,7 @@
       "link": "https://www.android.com/",
       "translations": {
         "en": "Mobile Operating System",
+        "ja": "モバイルオペレーティングシステム",
         "zh-Hans": "手机操作系统",
         "zh-Hant": "手机操作系统"
       }
@@ -83,6 +91,7 @@
       "link": "https://en.wikipedia.org/wiki/Chinese_language",
       "translations": {
         "en": "Natural Language",
+        "ja": "自然言語",
         "zh-Hans": "自然语言",
         "zh-Hant": "自然语言"
       }
@@ -94,6 +103,7 @@
       "link": "https://www.rust-lang.org/",
       "translations": {
         "en": "Programming Language",
+        "ja": "プログラミング言語",
         "zh-Hans": "编程语言",
         "zh-Hant": "编程语言"
       }
@@ -105,6 +115,7 @@
       "link": "https://www.playstation.com/en-us/explore/ps4/",
       "translations": {
         "en": "Game Console",
+        "ja": "ゲーム機",
         "zh-Hans": "游戏主机",
         "zh-Hant": "游戏主机"
       }

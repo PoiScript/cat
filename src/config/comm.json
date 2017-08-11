@@ -1,11 +1,13 @@
 {
   "title": {
     "en": "Communications",
+    "ja": "コミュニケーション",
     "zh-Hans": "联系方式",
     "zh-Hant": "聯繫方式"
   },
   "subtitle": {
     "en": "random order",
+    "ja": "順不同",
     "zh-Hans": "乱序",
     "zh-Hant": "亂序"
   },
@@ -17,6 +19,7 @@
       "link": "mailto:poiscript@gmail.com",
       "translations": {
         "en": "Gmail",
+        "ja": "Gmail",
         "zh-Hans": "Gmail",
         "zh-Hant": "Gmail"
       }
@@ -28,6 +31,7 @@
       "link": "mailto:poiscript@outlook.com",
       "translations": {
         "en": "Outlook",
+        "ja": "Outlook",
         "zh-Hans": "Outlook",
         "zh-Hant": "Outlook"
       }
@@ -39,6 +43,7 @@
       "link": "https://github.com/PoiScript",
       "translations": {
         "en": "GitHub",
+        "ja": "GitHub",
         "zh-Hans": "GitHub",
         "zh-Hant": "GitHub"
       }
@@ -50,6 +55,7 @@
       "link": "https://t.me/PoiScript",
       "translations": {
         "en": "Telegram",
+        "ja": "Telegram",
         "zh-Hans": "Telegram",
         "zh-Hant": "Telegram"
       }
@@ -61,6 +67,7 @@
       "link": "https://fb.me/PoiScript",
       "translations": {
         "en": "Facebook",
+        "ja": "Facebook",
         "zh-Hans": "Facebook",
         "zh-Hant": "Facebook"
       }
@@ -72,6 +79,7 @@
       "link": "https://plus.google.com/117614462113185255456",
       "translations": {
         "en": "Google +",
+        "ja": "Google +",
         "zh-Hans": "Google +",
         "zh-Hant": "Google +"
       }
@@ -83,6 +91,7 @@
       "link": "https://twitter.com/PoiScript",
       "translations": {
         "en": "Twitter",
+        "ja": "Twitter",
         "zh-Hans": "Twitter",
         "zh-Hant": "Twitter"
       }
@@ -94,6 +103,7 @@
       "link": "https://matrix.to/#/@PoiScript:matrix.org",
       "translations": {
         "en": "Matrix",
+        "ja": "Matrix",
         "zh-Hans": "Matrix",
         "zh-Hant": "Matrix"
       }
